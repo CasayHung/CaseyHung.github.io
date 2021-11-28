@@ -1,0 +1,66 @@
+/* Google fonts: Lora (serif), Poppins (sans-serif) Sourse Sans Pro (sans-serif) */
+
+@import url('https://fonts.googleleapis.com/css2?family=Lora&family=Poppings&family=Sourse+Sans+Pro&display=swap');
+
+* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+body {
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: limegreen;
+	color: #000a16;
+	font-family: Lora, serif;
+	font-size: 3vh;
+}
+
+h1, h2 {
+	font-family: Poppins, sans-serif;
+	font-size: 4vh;
+	line-height: 6vh;
+	margin: 1vh 0;
+}
+div {
+	margin: 10vh;
+}
+p {font-family: cooper black;
+	position: relative; bottom: 10px; width: 100%;
+	margin: 0.2vh 0;
+}
+
+nav {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	font-family: Poppins, sans-serif;
+	font-size: 2vh;
+	line-height: 3vh;
+}
+nav > a {
+	background-color: #323232;
+	color: white;
+	padding: 2px 4px;
+	text-decoration: none;
+	opacity: 0.6;
+}
+nav > a:not(:first-of-type) {
+	border-left: solid 2px white;
+	}
+nav > a:first-of-type {
+	width: 2.4vw;
+}
+
+nav > a:hover {
+	opacity: 0.95;
+}
+
+nav > a:visited {
+	color: white;
+}
+a, a:visited {
+	color: #323232;
+	text-decoration: underline;
+}

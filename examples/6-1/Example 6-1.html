@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Example 6-1: Priorty/Specificity</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/default.css">
+	<style>
+		body {
+			background-color: skyblue;
+		}
+		body {
+			background-color: orange;
+		}
+		p {
+			background-color: yellow;
+		}
+		section > p {
+			background-color: limegreen !important;
+		}
+	</style>
+</head>
+<body>
+	<p>This is the first paragraph.</p>
+	<section>
+		This is a section.
+		<p style="background-color: crimson;">This is a second paragraph inside a section.</p>
+	</section>
+</body>
+</html>
